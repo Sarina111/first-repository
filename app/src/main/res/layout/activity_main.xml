@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:id="@+id/tv1"
+
+        android:text="Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/etname"
+
+        android:hint="enter your name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:paddingRight="16dp"
+        android:paddingTop="25dp"
+        android:id="@+id/tv2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:inputType="textPassword"
+        android:paddingRight="16dp"
+        android:paddingTop="25dp"
+        android:id="@+id/etpassword"
+        android:hint="your password"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingRight="16dp"
+        android:paddingTop="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="your mail address"
+        android:paddingRight="16dp"
+        android:id="@+id/etemail"
+        android:paddingTop="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="login"
+        android:layout_marginLeft="5dp"
+        android:textAllCaps="false"
+        android:background="#232456"
+        android:textColor="@color/colorpri"
+        android:id="@+id/btnlog"
+
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="register"
+        android:textAllCaps="false"
+        android:layout_marginRight="5dp"
+        android:background="#232456"
+        android:textColor="@color/colorpri"
+        android:id="@+id/btnreg"
+
+        />
+    </LinearLayout>
+
+</LinearLayout>
+

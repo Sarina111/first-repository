@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/examplelogin_main"
+
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/txt"
+        android:text="POWERPLUG"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp"
+        android:gravity="center"
+
+        android:text="CLOSE MORE DETAILS FASTER" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Power Plug  will expand your reach and allow you to close big deals and tiny deals and without much effort" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="16dp"
+        android:paddingTop="25dp"
+        android:id="@+id/etname"
+
+        android:layout_gravity="center"
+        android:background="@drawable/txtshape"
+        android:hint="@string/name"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:padding="16dp"
+
+        android:paddingRight="16dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/etpassword"
+        android:hint="password"
+        android:background="@drawable/txtshape"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Signin"
+
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:background="@drawable/shape"
+        android:textColor="@color/colorpri"
+        android:id="@+id/btnSignin"
+
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Forgotpassword?"
+
+
+        android:textAllCaps="false"
+        android:background="@drawable/shape2"
+        android:textColor="@color/colorpri"
+        android:id="@+id/btnpass"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="DONT HAVE AN ACCOUNT?" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account now"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/txt"
+        android:textSize="30dp"
+
+        />
+
+
+
+
+</LinearLayout>
